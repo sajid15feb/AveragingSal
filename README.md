@@ -87,3 +87,6 @@ public static void main(String[] args){
 }
 
 }
+
+![image](https://github.com/sajid15feb/AveragingSal/assets/3103247/0427926a-b579-404b-af5b-2f761ae9154f)
+
