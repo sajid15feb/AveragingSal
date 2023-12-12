@@ -12,5 +12,8 @@ fun main(args: Array<String>) {
     employees.add( Employee("Ramesh", "D", "HR", "Pune", "Recruiter",  "16000".toDouble()))
     employees.add( Employee("Bobby", "S", "IT", "Bangalore", "Tech Lead",  "20000".toDouble()))
     employees.add( Employee("Vipul", "M", "IT", "Bangalore", "Software Engineer",  "14000".toDouble()))
-    FindAverageSalaryApp().findAverageSalary(employees)
+    if(employees.isNotEmpty())
+        FindAverageSalaryApp().findAverageSalary(employees)
+    else
+        println("Employees list empty.")
 }
